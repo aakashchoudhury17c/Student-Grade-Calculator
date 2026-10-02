@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class GradeCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("***Student Grade Calculator***");
         double total = 0;
 
         for (int i = 1; i <= 5; i++) {
